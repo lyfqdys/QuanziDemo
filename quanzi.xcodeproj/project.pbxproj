@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		306429A61CE0D9B50000F8E4 /* QuanziGroupDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 306429A41CE0D9B50000F8E4 /* QuanziGroupDetailViewController.m */; };
+		306429A71CE0D9B50000F8E4 /* QuanziGroupDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 306429A51CE0D9B50000F8E4 /* QuanziGroupDetailViewController.xib */; };
+		30EBF0801CE0CEAC00B06F7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EBF07F1CE0CEAC00B06F7C /* main.m */; };
+		30EBF0831CE0CEAC00B06F7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EBF0821CE0CEAC00B06F7C /* AppDelegate.m */; };
+		30EBF0861CE0CEAC00B06F7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EBF0851CE0CEAC00B06F7C /* ViewController.m */; };
+		30EBF0891CE0CEAC00B06F7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30EBF0871CE0CEAC00B06F7C /* Main.storyboard */; };
+		30EBF08B1CE0CEAC00B06F7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30EBF08A1CE0CEAC00B06F7C /* Assets.xcassets */; };
+		30EBF08E1CE0CEAC00B06F7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30EBF08C1CE0CEAC00B06F7C /* LaunchScreen.storyboard */; };
+		30EBF0991CE0CEAC00B06F7C /* quanziTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EBF0981CE0CEAC00B06F7C /* quanziTests.m */; };
+		30EBF0A41CE0CEAC00B06F7C /* quanziUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EBF0A31CE0CEAC00B06F7C /* quanziUITests.m */; };
+		30EBF0BA1CE0D0CF00B06F7C /* QuanziCreatGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EBF0B81CE0D0CF00B06F7C /* QuanziCreatGroupViewController.m */; };
+		30EBF0BB1CE0D0CF00B06F7C /* QuanziCreatGroupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30EBF0B91CE0D0CF00B06F7C /* QuanziCreatGroupViewController.xib */; };
+		30EBF0BF1CE0D19300B06F7C /* QuanziCreatGroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EBF0BD1CE0D19300B06F7C /* QuanziCreatGroupTableViewCell.m */; };
+		30EBF0C01CE0D19300B06F7C /* QuanziCreatGroupTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30EBF0BE1CE0D19300B06F7C /* QuanziCreatGroupTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30EBF0951CE0CEAC00B06F7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30EBF0731CE0CEAB00B06F7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30EBF07A1CE0CEAB00B06F7C;
+			remoteInfo = quanzi;
+		};
+		30EBF0A01CE0CEAC00B06F7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30EBF0731CE0CEAB00B06F7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30EBF07A1CE0CEAB00B06F7C;
+			remoteInfo = quanzi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		306429A31CE0D9B50000F8E4 /* QuanziGroupDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuanziGroupDetailViewController.h; sourceTree = "<group>"; };
+		306429A41CE0D9B50000F8E4 /* QuanziGroupDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuanziGroupDetailViewController.m; sourceTree = "<group>"; };
+		306429A51CE0D9B50000F8E4 /* QuanziGroupDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuanziGroupDetailViewController.xib; sourceTree = "<group>"; };
+		30EBF07B1CE0CEAB00B06F7C /* quanzi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quanzi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30EBF07F1CE0CEAC00B06F7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30EBF0811CE0CEAC00B06F7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30EBF0821CE0CEAC00B06F7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30EBF0841CE0CEAC00B06F7C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		30EBF0851CE0CEAC00B06F7C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		30EBF0881CE0CEAC00B06F7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30EBF08A1CE0CEAC00B06F7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30EBF08D1CE0CEAC00B06F7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30EBF08F1CE0CEAC00B06F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30EBF0941CE0CEAC00B06F7C /* quanziTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quanziTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30EBF0981CE0CEAC00B06F7C /* quanziTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = quanziTests.m; sourceTree = "<group>"; };
+		30EBF09A1CE0CEAC00B06F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30EBF09F1CE0CEAC00B06F7C /* quanziUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quanziUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30EBF0A31CE0CEAC00B06F7C /* quanziUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = quanziUITests.m; sourceTree = "<group>"; };
+		30EBF0A51CE0CEAC00B06F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30EBF0B71CE0D0CF00B06F7C /* QuanziCreatGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuanziCreatGroupViewController.h; sourceTree = "<group>"; };
+		30EBF0B81CE0D0CF00B06F7C /* QuanziCreatGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuanziCreatGroupViewController.m; sourceTree = "<group>"; };
+		30EBF0B91CE0D0CF00B06F7C /* QuanziCreatGroupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuanziCreatGroupViewController.xib; sourceTree = "<group>"; };
+		30EBF0BC1CE0D19300B06F7C /* QuanziCreatGroupTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuanziCreatGroupTableViewCell.h; sourceTree = "<group>"; };
+		30EBF0BD1CE0D19300B06F7C /* QuanziCreatGroupTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuanziCreatGroupTableViewCell.m; sourceTree = "<group>"; };
+		30EBF0BE1CE0D19300B06F7C /* QuanziCreatGroupTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuanziCreatGroupTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30EBF0781CE0CEAB00B06F7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30EBF0911CE0CEAC00B06F7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30EBF09C1CE0CEAC00B06F7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30EBF0721CE0CEAB00B06F7C = {
+			isa = PBXGroup;
+			children = (
+				30EBF07D1CE0CEAB00B06F7C /* quanzi */,
+				30EBF0971CE0CEAC00B06F7C /* quanziTests */,
+				30EBF0A21CE0CEAC00B06F7C /* quanziUITests */,
+				30EBF07C1CE0CEAB00B06F7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30EBF07C1CE0CEAB00B06F7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30EBF07B1CE0CEAB00B06F7C /* quanzi.app */,
+				30EBF0941CE0CEAC00B06F7C /* quanziTests.xctest */,
+				30EBF09F1CE0CEAC00B06F7C /* quanziUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30EBF07D1CE0CEAB00B06F7C /* quanzi */ = {
+			isa = PBXGroup;
+			children = (
+				30EBF0B31CE0D0B200B06F7C /* CreatGroup */,
+				30EBF0811CE0CEAC00B06F7C /* AppDelegate.h */,
+				30EBF0821CE0CEAC00B06F7C /* AppDelegate.m */,
+				30EBF0841CE0CEAC00B06F7C /* ViewController.h */,
+				30EBF0851CE0CEAC00B06F7C /* ViewController.m */,
+				30EBF0871CE0CEAC00B06F7C /* Main.storyboard */,
+				30EBF08A1CE0CEAC00B06F7C /* Assets.xcassets */,
+				30EBF08C1CE0CEAC00B06F7C /* LaunchScreen.storyboard */,
+				30EBF08F1CE0CEAC00B06F7C /* Info.plist */,
+				30EBF07E1CE0CEAB00B06F7C /* Supporting Files */,
+			);
+			path = quanzi;
+			sourceTree = "<group>";
+		};
+		30EBF07E1CE0CEAB00B06F7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30EBF07F1CE0CEAC00B06F7C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30EBF0971CE0CEAC00B06F7C /* quanziTests */ = {
+			isa = PBXGroup;
+			children = (
+				30EBF0981CE0CEAC00B06F7C /* quanziTests.m */,
+				30EBF09A1CE0CEAC00B06F7C /* Info.plist */,
+			);
+			path = quanziTests;
+			sourceTree = "<group>";
+		};
+		30EBF0A21CE0CEAC00B06F7C /* quanziUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30EBF0A31CE0CEAC00B06F7C /* quanziUITests.m */,
+				30EBF0A51CE0CEAC00B06F7C /* Info.plist */,
+			);
+			path = quanziUITests;
+			sourceTree = "<group>";
+		};
+		30EBF0B31CE0D0B200B06F7C /* CreatGroup */ = {
+			isa = PBXGroup;
+			children = (
+				30EBF0B41CE0D0B200B06F7C /* Model */,
+				30EBF0B51CE0D0B200B06F7C /* Vc */,
+				30EBF0B61CE0D0B200B06F7C /* View */,
+			);
+			path = CreatGroup;
+			sourceTree = "<group>";
+		};
+		30EBF0B41CE0D0B200B06F7C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		30EBF0B51CE0D0B200B06F7C /* Vc */ = {
+			isa = PBXGroup;
+			children = (
+				30EBF0B71CE0D0CF00B06F7C /* QuanziCreatGroupViewController.h */,
+				30EBF0B81CE0D0CF00B06F7C /* QuanziCreatGroupViewController.m */,
+				30EBF0B91CE0D0CF00B06F7C /* QuanziCreatGroupViewController.xib */,
+				306429A31CE0D9B50000F8E4 /* QuanziGroupDetailViewController.h */,
+				306429A41CE0D9B50000F8E4 /* QuanziGroupDetailViewController.m */,
+				306429A51CE0D9B50000F8E4 /* QuanziGroupDetailViewController.xib */,
+			);
+			path = Vc;
+			sourceTree = "<group>";
+		};
+		30EBF0B61CE0D0B200B06F7C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				30EBF0BC1CE0D19300B06F7C /* QuanziCreatGroupTableViewCell.h */,
+				30EBF0BD1CE0D19300B06F7C /* QuanziCreatGroupTableViewCell.m */,
+				30EBF0BE1CE0D19300B06F7C /* QuanziCreatGroupTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30EBF07A1CE0CEAB00B06F7C /* quanzi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30EBF0A81CE0CEAC00B06F7C /* Build configuration list for PBXNativeTarget "quanzi" */;
+			buildPhases = (
+				30EBF0771CE0CEAB00B06F7C /* Sources */,
+				30EBF0781CE0CEAB00B06F7C /* Frameworks */,
+				30EBF0791CE0CEAB00B06F7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = quanzi;
+			productName = quanzi;
+			productReference = 30EBF07B1CE0CEAB00B06F7C /* quanzi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30EBF0931CE0CEAC00B06F7C /* quanziTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30EBF0AB1CE0CEAC00B06F7C /* Build configuration list for PBXNativeTarget "quanziTests" */;
+			buildPhases = (
+				30EBF0901CE0CEAC00B06F7C /* Sources */,
+				30EBF0911CE0CEAC00B06F7C /* Frameworks */,
+				30EBF0921CE0CEAC00B06F7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30EBF0961CE0CEAC00B06F7C /* PBXTargetDependency */,
+			);
+			name = quanziTests;
+			productName = quanziTests;
+			productReference = 30EBF0941CE0CEAC00B06F7C /* quanziTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30EBF09E1CE0CEAC00B06F7C /* quanziUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30EBF0AE1CE0CEAC00B06F7C /* Build configuration list for PBXNativeTarget "quanziUITests" */;
+			buildPhases = (
+				30EBF09B1CE0CEAC00B06F7C /* Sources */,
+				30EBF09C1CE0CEAC00B06F7C /* Frameworks */,
+				30EBF09D1CE0CEAC00B06F7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30EBF0A11CE0CEAC00B06F7C /* PBXTargetDependency */,
+			);
+			name = quanziUITests;
+			productName = quanziUITests;
+			productReference = 30EBF09F1CE0CEAC00B06F7C /* quanziUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30EBF0731CE0CEAB00B06F7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "舒婷";
+				TargetAttributes = {
+					30EBF07A1CE0CEAB00B06F7C = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					30EBF0931CE0CEAC00B06F7C = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 30EBF07A1CE0CEAB00B06F7C;
+					};
+					30EBF09E1CE0CEAC00B06F7C = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 30EBF07A1CE0CEAB00B06F7C;
+					};
+				};
+			};
+			buildConfigurationList = 30EBF0761CE0CEAB00B06F7C /* Build configuration list for PBXProject "quanzi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30EBF0721CE0CEAB00B06F7C;
+			productRefGroup = 30EBF07C1CE0CEAB00B06F7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30EBF07A1CE0CEAB00B06F7C /* quanzi */,
+				30EBF0931CE0CEAC00B06F7C /* quanziTests */,
+				30EBF09E1CE0CEAC00B06F7C /* quanziUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30EBF0791CE0CEAB00B06F7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EBF08E1CE0CEAC00B06F7C /* LaunchScreen.storyboard in Resources */,
+				30EBF08B1CE0CEAC00B06F7C /* Assets.xcassets in Resources */,
+				30EBF0BB1CE0D0CF00B06F7C /* QuanziCreatGroupViewController.xib in Resources */,
+				306429A71CE0D9B50000F8E4 /* QuanziGroupDetailViewController.xib in Resources */,
+				30EBF0891CE0CEAC00B06F7C /* Main.storyboard in Resources */,
+				30EBF0C01CE0D19300B06F7C /* QuanziCreatGroupTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30EBF0921CE0CEAC00B06F7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30EBF09D1CE0CEAC00B06F7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30EBF0771CE0CEAB00B06F7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EBF0BA1CE0D0CF00B06F7C /* QuanziCreatGroupViewController.m in Sources */,
+				306429A61CE0D9B50000F8E4 /* QuanziGroupDetailViewController.m in Sources */,
+				30EBF0BF1CE0D19300B06F7C /* QuanziCreatGroupTableViewCell.m in Sources */,
+				30EBF0861CE0CEAC00B06F7C /* ViewController.m in Sources */,
+				30EBF0831CE0CEAC00B06F7C /* AppDelegate.m in Sources */,
+				30EBF0801CE0CEAC00B06F7C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30EBF0901CE0CEAC00B06F7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EBF0991CE0CEAC00B06F7C /* quanziTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30EBF09B1CE0CEAC00B06F7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EBF0A41CE0CEAC00B06F7C /* quanziUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30EBF0961CE0CEAC00B06F7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30EBF07A1CE0CEAB00B06F7C /* quanzi */;
+			targetProxy = 30EBF0951CE0CEAC00B06F7C /* PBXContainerItemProxy */;
+		};
+		30EBF0A11CE0CEAC00B06F7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30EBF07A1CE0CEAB00B06F7C /* quanzi */;
+			targetProxy = 30EBF0A01CE0CEAC00B06F7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30EBF0871CE0CEAC00B06F7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30EBF0881CE0CEAC00B06F7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30EBF08C1CE0CEAC00B06F7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30EBF08D1CE0CEAC00B06F7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30EBF0A61CE0CEAC00B06F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30EBF0A71CE0CEAC00B06F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30EBF0A91CE0CEAC00B06F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = quanzi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = szm.quanzi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		30EBF0AA1CE0CEAC00B06F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = quanzi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = szm.quanzi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		30EBF0AC1CE0CEAC00B06F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = quanziTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = szm.quanziTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quanzi.app/quanzi";
+			};
+			name = Debug;
+		};
+		30EBF0AD1CE0CEAC00B06F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = quanziTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = szm.quanziTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quanzi.app/quanzi";
+			};
+			name = Release;
+		};
+		30EBF0AF1CE0CEAC00B06F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = quanziUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = szm.quanziUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = quanzi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		30EBF0B01CE0CEAC00B06F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = quanziUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = szm.quanziUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = quanzi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30EBF0761CE0CEAB00B06F7C /* Build configuration list for PBXProject "quanzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30EBF0A61CE0CEAC00B06F7C /* Debug */,
+				30EBF0A71CE0CEAC00B06F7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30EBF0A81CE0CEAC00B06F7C /* Build configuration list for PBXNativeTarget "quanzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30EBF0A91CE0CEAC00B06F7C /* Debug */,
+				30EBF0AA1CE0CEAC00B06F7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30EBF0AB1CE0CEAC00B06F7C /* Build configuration list for PBXNativeTarget "quanziTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30EBF0AC1CE0CEAC00B06F7C /* Debug */,
+				30EBF0AD1CE0CEAC00B06F7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30EBF0AE1CE0CEAC00B06F7C /* Build configuration list for PBXNativeTarget "quanziUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30EBF0AF1CE0CEAC00B06F7C /* Debug */,
+				30EBF0B01CE0CEAC00B06F7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30EBF0731CE0CEAB00B06F7C /* Project object */;
+}
