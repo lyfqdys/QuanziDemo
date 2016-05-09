@@ -20,6 +20,7 @@ static const CGFloat kCellHeight = 55;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"home";
     self.datasource = [[NSMutableArray alloc]initWithObjects:@{@"title":@"shsh1",@"content":@"shgdgdhdg1"},
                                                              @{@"title":@"shsh2",@"content":@"shgdgdhdg2"},
                                                              @{@"title":@"shsh3",@"content":@"shgdgdhdg3"},
